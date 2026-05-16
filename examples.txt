@@ -1,0 +1,161 @@
+https://v3.sg.media-imdb.com/suggestion/x/A%20Minecraft%20Movie.json?includeVideos=1
+Returns
+{
+  "d": [
+    {
+      "i": {
+        "height": 4096,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzFjMzNjOTktNDBlNy00YWZhLWExYTctZDcxNDA4OWVhOTJjXkEyXkFqcGc@._V1_.jpg",
+        "width": 2764
+      },
+      "id": "tt3566834",
+      "l": "A Minecraft Movie",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 771,
+      "s": "Jason Momoa, Jack Black",
+      "v": [
+        {
+          "i": {
+            "height": 720,
+            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzY2OTI2NTctN2Y3MS00NTM2LWFhY2UtNzFkZDMyYzRkZWE4XkEyXkFqcGdeQWRpZWdtb25n._V1_.jpg",
+            "width": 1280
+          },
+          "id": "vi2465515545",
+          "l": "Official Trailer - ASL",
+          "s": "2:28"
+        },
+        {
+          "i": {
+            "height": 961,
+            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDI5NTI2ODctZWI1OS00MWE3LWFkYzktNTIzNDQ1ODJiMzI4XkEyXkFqcGdeQWFybm8@._V1_.jpg",
+            "width": 1709
+          },
+          "id": "vi4218865945",
+          "l": "Final Trailer",
+          "s": "2:31"
+        }
+      ],
+      "vt": 12,
+      "y": 2025
+    },
+    {
+      "i": {
+        "height": 1080,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDkyZWIxNTgtOWEyYy00NjMyLWE5MWEtMzc0YjE2ZGIyYjk0XkEyXkFqcGc@._V1_.jpg",
+        "width": 1920
+      },
+      "id": "tt32192430",
+      "l": "STEVE (A Minecraft Movie)",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 264393,
+      "s": "Mr. Explorer, Elsa Kurti",
+      "vt": 0,
+      "y": 2024
+    },
+    {
+      "i": {
+        "height": 1600,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGIzZDZlMWYtOTk2ZS00Y2E1LWExMTItZDA0ZjNiNDc3NzkyXkEyXkFqcGc@._V1_.jpg",
+        "width": 1200
+      },
+      "id": "tt11212858",
+      "l": "A Minecraft Ninja Turtle Movie",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 270403,
+      "s": "",
+      "y": 2016
+    },
+    {
+      "i": {
+        "height": 3508,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTZjZThjNjAtMGQ2Yi00MjE3LTlhODYtZjNjYTE1YTBiYzRiXkEyXkFqcGc@._V1_.jpg",
+        "width": 2480
+      },
+      "id": "tt6956438",
+      "l": "Immortal a Minecraft Movie",
+      "q": "video",
+      "qid": "video",
+      "rank": 471968,
+      "s": "Kian Chambers, Vincent Chambers",
+      "y": 2017
+    },
+    {
+      "i": {
+        "height": 2245,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjYzZmNlNTItMjYyZi00ZTE4LTgwNmItNGM0NTgyNzg2ZGFjXkEyXkFqcGc@._V1_.jpg",
+        "width": 1587
+      },
+      "id": "tt32897638",
+      "l": "Minecraft: The movie",
+      "q": "short",
+      "qid": "short",
+      "rank": 74650,
+      "s": "Davey Bruder, Aaro Hedler",
+      "y": 2024
+    },
+    {
+      "id": "tt40713128",
+      "l": "Minecraftian: A Minecraft Movie",
+      "q": "short",
+      "qid": "short",
+      "rank": 764468,
+      "s": "Jonathan Griffiths, Joshua Mutter",
+      "y": 2011
+    },
+    {
+      "id": "tt36556008",
+      "l": "A Real Minecraft Movie",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 684896,
+      "s": "Felix Humann",
+      "y": 2025
+    },
+    {
+      "i": {
+        "height": 1080,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BODc5NjI3YWUtZmEyOC00NzRhLTlkNjktODcyYzM4ZjEyZWE2XkEyXkFqcGc@._V1_.jpg",
+        "width": 1920
+      },
+      "id": "tt39798962",
+      "l": "Minecraft Movie Edition",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 123920,
+      "s": "Max Jarmyn, Emily the Minecrafter",
+      "y": 2026
+    }
+  ],
+  "q": "A%20Minecraft%20Movie",
+  "v": 1
+}
+
+
+http://localhost:9646/search?q=A%20Minecraft%20Movie
+Returns
+
+{
+  "results": [
+    {
+      "tmdb_id": 950387,
+      "media_type": "movie",
+      "title": "A Minecraft Movie",
+      "description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+      "release_date": "April 3, 2025",
+      "poster": "https://media.themoviedb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+      "url": "https://www.themoviedb.org/movie/950387-a-minecraft-movie"
+    },
+    {
+      "tmdb_id": 1461519,
+      "media_type": "movie",
+      "title": "A Minecraft Sequel",
+      "description": "The second installment in the franchise. Plot TBA.",
+      "release_date": "July 22, 2027",
+      "poster": "https://media.themoviedb.org/t/p/w500/etAUG9KmbStyEKmbdd4wIvyJpV5.jpg",
+      "url": "https://www.themoviedb.org/movie/1461519-a-minecraft-sequel"
+    }
+  ]
+}
